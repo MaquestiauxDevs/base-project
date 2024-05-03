@@ -30,3 +30,26 @@ echo "# Contributor Covenant Code of Conduct" > CODE_OF_CONDUCT.md
 echo "# How to contribute" > CONTRIBUTING.md
 echo "MIT License" > LICENSE
 ```
+
+## ESLint
+
+ESLint statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous integration pipeline. [https://eslint.org/](https://eslint.org/)
+
+[https://eslint.org/docs/latest/use/configure/](https://eslint.org/docs/latest/use/configure/)
+
+To test the configuration options: [https://eslint.org/play](https://eslint.org/play)
+
+```bash
+npm i --save-dev eslint@8.57.0
+npm init @eslint/config
+npm pkg set 'scripts.format:eslint'="eslint --fix"
+```
+
+    ✔ How would you like to use ESLint? · problems
+    ✔ What type of modules does your project use? · esm
+    ✔ Which framework does your project use? · none
+    ✔ Does your project use TypeScript? · No / Yes
+    ✔ Where does your code run? · browser, node
+    ✔ What format do you want your config file to be in? · JSON
+    Successfully created .eslintrc.json file in /home/devlin/Developments/__BASE/base-project
+
