@@ -71,6 +71,16 @@ node --eval "fs.writeFileSync('.prettierrc','{}\n')"
 ## ESLint + Prettier
 
 ```bash
-npm instal --save-dev eslint-config-prettier
-yarn json -I -f .eslintrc.json -e "this.extends=[\"eslint:recommended\",\"prettier\"]"
+npm install --save-dev eslint-config-prettier
+npm json -I -f .eslintrc.json -e "this.extends=[\"eslint:recommended\",\"prettier\"]"
+```
+
+## Husky
+
+Husky improves your commits and more 🐶 woof!
+
+```bash
+npm install --save-dev husky
+npx husky init
+npm pkg delete 'scripts.prepare'
 ```
