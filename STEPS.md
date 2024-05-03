@@ -91,3 +91,12 @@ npm install --save-dev pretty-quick
 npm pkg set 'scripts.format:pretty-quick'="pretty-quick --staged"
 echo "npm run format:pretty-quick" >> .husky/pre-commit
 ```
+
+### Commitlint with Husky
+
+```bash
+npm install --save-dev @commitlint/cli @commitlint/config-conventional
+npm pkg set 'scripts.git:commitlint'="commitlint --edit"
+echo "{ \"extends\": [\"@commitlint/config-conventional\"] }" > .commitlintrc.json
+echo "npm run git:commitlint ${1}" >> .husky/commit-msg
+```

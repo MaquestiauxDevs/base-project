@@ -6,7 +6,8 @@
         "test": "echo \"Error: no test specified\"",
         "format:eslint": "eslint --fix",
         "format:prettier": "prettier --write",
-        "format:pretty-quick": "pretty-quick --staged"
+        "format:pretty-quick": "pretty-quick --staged",
+        "git:commitlint": "commitlint --edit"
     },
     "repository": {
         "type": "git",
@@ -31,6 +32,8 @@
     },
     "homepage": "https://github.com/MaquestiauxDevs/base-project#readme",
     "devDependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
         "eslint": "^8.57.0",
         "eslint-config-prettier": "^9.1.0",
         "husky": "^9.0.11",
