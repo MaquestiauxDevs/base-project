@@ -1,25 +1,25 @@
 // app/index.js
 console.log("Hello World!");
 
-let not_used = "not used";
-const not_used_const = "not used";
+let notUsed = "not used";
+const notUsedConst = "not used";
 
 for (let i = 0; i < 10; i++) {
     console.log(i);
-    not_used += i;
+    notUsed += i;
 }
-
+let foo = 0;
 if (foo) foo++;
 
 for (let i = 0; i < 10; i++) {
     console.log(i);
 }
-
+let a = 2;
 switch (a) {
-case 1:
-    /* code */
-    break;
+    case 1:
+        /* code */
+        break;
 }
 
-console.log(not_used_const);
-console.log(not_used);
+console.log(notUsedConst);
+console.log(notUsed);

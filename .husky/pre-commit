@@ -1,3 +1,3 @@
 npm test
-npm run format:eslint
+npm run format:eslint ./app
 npm run format:pretty-quick
