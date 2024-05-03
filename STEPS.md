@@ -1,5 +1,25 @@
 # Steps for setup the base project
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+
+-   [First actions](#first-actions)
+-   [Create the initial package](#create-the-initial-package)
+-   [Ensure that best practice file are in the project](#ensure-that-best-practice-file-are-in-the-project)
+-   [Working dependencies](#working-dependencies)
+-   [ESLint](#eslint)
+-   [Prettier](#prettier)
+-   [ESLint + Prettier](#eslint--prettier)
+-   [Husky](#husky)
+    -   [Pretty-quick with Husky](#pretty-quick-with-husky)
+    -   [Commitlint with Husky](#commitlint-with-husky)
+-   [All contributors](#all-contributors)
+-   [Doctoc](#doctoc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## First actions
 
 Go on your repository server (e.g. [github](https://github.com) ), and create a new repository (e.g. base-project)
@@ -119,4 +139,13 @@ npx json -I -f .all-contributorsrc -e "this.commitConvention=\"eslint\""
 npx json -I -f .all-contributorsrc -e "this.contributors=[]"
 npx json -I -f .all-contributorsrc -e "this.contributorsPerLine=\"5\""
 npm run contributors:add maquejp projectManagement,code,doc,ideas,maintenance
+```
+
+## Doctoc
+
+Warning: Add `&lt;!-- START doctoc --&gt;&lt;!-- END doctoc --&gt;`' in the appropriate position of your mds, if it is not sets it will be placed on the top of the file.
+
+```bash
+npm install --save-dev doctoc
+npm pkg set 'scripts.documentation:tocmds'="doctoc README.md CODE_OF_CONDUCT.md CONTRIBUTING.md STEPS.md"
 ```
