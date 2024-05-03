@@ -1,0 +1,26 @@
+{
+    "projectName": "project-generator",
+    "projectOwner": "maquejp",
+    "repoType": "github",
+    "repoHost": "https://github.com",
+    "files": ["CONTRIBUTING.md", "README.md"],
+    "imageSize": "50",
+    "commit": true,
+    "commitConvention": "eslint",
+    "contributors": [
+        {
+            "login": "maquejp",
+            "name": "Jean-Philippe M",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7753492?v=4",
+            "profile": "https://github.com/maquejp",
+            "contributions": [
+                "projectManagement",
+                "code",
+                "doc",
+                "ideas",
+                "maintenance"
+            ]
+        }
+    ],
+    "contributorsPerLine": "5"
+}
