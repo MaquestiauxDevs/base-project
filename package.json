@@ -1,0 +1,30 @@
+{
+  "name": "base-project",
+  "version": "0.0.1",
+  "description": "A base project that contains conventional dev dependencies.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaquestiauxDevs/base-project.git"
+  },
+  "keywords": [
+    "base",
+    "best",
+    "practice",
+    "eslint",
+    "prettier",
+    "husky",
+    "pretty-quick",
+    "commitlint",
+    "all-contributors",
+    "doctoc"
+  ],
+  "author": "Maquestiaux Jean-Philippe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaquestiauxDevs/base-project/issues"
+  },
+  "homepage": "https://github.com/MaquestiauxDevs/base-project#readme"
+}
