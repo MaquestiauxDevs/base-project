@@ -100,3 +100,23 @@ npm pkg set 'scripts.git:commitlint'="commitlint --edit"
 echo "{ \"extends\": [\"@commitlint/config-conventional\"] }" > .commitlintrc.json
 echo "npm run git:commitlint ${1}" >> .husky/commit-msg
 ```
+
+## All contributors
+
+```bash
+npm install --save-dev all-contributors-cli
+npm pkg set 'scripts.contributors:generate'="all-contributors generate"
+npm pkg set 'scripts.contributors:add'="all-contributors add"
+echo "{}" > .all-contributorsrc
+npx json -I -f .all-contributorsrc -e "this.projectName=\"project-generator\""
+npx json -I -f .all-contributorsrc -e "this.projectOwner=\"maquejp\""
+npx json -I -f .all-contributorsrc -e "this.repoType=\"github\""
+npx json -I -f .all-contributorsrc -e "this.repoHost=\"https://github.com\""
+npx json -I -f .all-contributorsrc -e "this.files=[\"CONTRIBUTING.md\",\"README.md\"]"
+npx json -I -f .all-contributorsrc -e "this.imageSize=\"50\""
+npx json -I -f .all-contributorsrc -e "this.commit=true"
+npx json -I -f .all-contributorsrc -e "this.commitConvention=\"eslint\""
+npx json -I -f .all-contributorsrc -e "this.contributors=[]"
+npx json -I -f .all-contributorsrc -e "this.contributorsPerLine=\"5\""
+npm run contributors:add maquejp projectManagement,code,doc,ideas,maintenance
+```
