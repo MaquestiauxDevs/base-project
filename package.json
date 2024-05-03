@@ -1,39 +1,41 @@
 {
-  "name": "base-project",
-  "version": "0.0.1",
-  "description": "A base project that contains conventional dev dependencies.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "format:eslint": "eslint --fix",
-    "format:prettier": "prettier --write"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MaquestiauxDevs/base-project.git"
-  },
-  "keywords": [
-    "base",
-    "best",
-    "practice",
-    "eslint",
-    "prettier",
-    "husky",
-    "pretty-quick",
-    "commitlint",
-    "all-contributors",
-    "doctoc"
-  ],
-  "author": "Maquestiaux Jean-Philippe",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MaquestiauxDevs/base-project/issues"
-  },
-  "homepage": "https://github.com/MaquestiauxDevs/base-project#readme",
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.11",
-    "json": "^11.0.0",
-    "prettier": "^3.2.5"
-  }
+    "name": "base-project",
+    "version": "0.0.1",
+    "description": "A base project that contains conventional dev dependencies.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "format:eslint": "eslint --fix",
+        "format:prettier": "prettier --write",
+        "format:pretty-quick": "pretty-quick --staged"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MaquestiauxDevs/base-project.git"
+    },
+    "keywords": [
+        "base",
+        "best",
+        "practice",
+        "eslint",
+        "prettier",
+        "husky",
+        "pretty-quick",
+        "commitlint",
+        "all-contributors",
+        "doctoc"
+    ],
+    "author": "Maquestiaux Jean-Philippe",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MaquestiauxDevs/base-project/issues"
+    },
+    "homepage": "https://github.com/MaquestiauxDevs/base-project#readme",
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "husky": "^9.0.11",
+        "json": "^11.0.0",
+        "prettier": "^3.2.5",
+        "pretty-quick": "^4.0.0"
+    }
 }
