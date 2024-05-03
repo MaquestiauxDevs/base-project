@@ -31,6 +31,12 @@ echo "# How to contribute" > CONTRIBUTING.md
 echo "MIT License" > LICENSE
 ```
 
+## Working dependencies
+
+```bash
+npm i --save-dev json
+```
+
 ## ESLint
 
 ESLint statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous integration pipeline. [https://eslint.org/](https://eslint.org/)
@@ -53,3 +59,18 @@ npm pkg set 'scripts.format:eslint'="eslint --fix"
     ✔ What format do you want your config file to be in? · JSON
     Successfully created .eslintrc.json
 
+## Prettier
+
+An opinionated code formatter
+
+```bash
+npm install --save-dev prettier
+node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+```
+
+## ESLint + Prettier
+
+```bash
+npm instal --save-dev eslint-config-prettier
+yarn json -I -f .eslintrc.json -e "this.extends=[\"eslint:recommended\",\"prettier\"]"
+```
