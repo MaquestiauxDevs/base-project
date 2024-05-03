@@ -51,5 +51,5 @@ npm pkg set 'scripts.format:eslint'="eslint --fix"
     ✔ Does your project use TypeScript? · No / Yes
     ✔ Where does your code run? · browser, node
     ✔ What format do you want your config file to be in? · JSON
-    Successfully created .eslintrc.json file in /home/devlin/Developments/__BASE/base-project
+    Successfully created .eslintrc.json
 
