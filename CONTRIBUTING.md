@@ -2,6 +2,19 @@
 
 First of all, thank you for taking the time to contribute to this project. We've tried to make a stable project and try to fix bugs and add new features continuously. You can help us do more.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+**Table of Contents**
+
+-   [Getting started](#getting-started)
+    -   [Check out the roadmap](#check-out-the-roadmap)
+    -   [Writing some code!](#writing-some-code)
+    -   [Tests](#tests)
+    -   [Documentation](#documentation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Getting started
 
 ### Check out the roadmap
@@ -12,7 +25,7 @@ We have some functionalities in mind and we have issued them and there is a _mil
 
 Contributing to a project on Github is pretty straight forward. If this is you're first time, these are the steps you should take.
 
-- Fork this repo.
+-   Fork this repo.
 
 And that's it! Read the code available and change the part you don't like! You're change should not break the existing code and should pass the tests.
 
