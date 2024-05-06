@@ -11,16 +11,23 @@ To enforce, it use [git hooks](https://git-scm.com/docs/githooks) using [Husky](
 
 **Table of Contents**
 
--   [Usage](#usage)
--   [Packages used](#packages-used)
+-   [Base project](#base-project)
+    -   [Usage](#usage)
+    -   [Packages used](#packages-used)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Usage
 
-You can clone this repository `git clone [MaquestiauxDevs/base-project .](https://github.com/MaquestiauxDevs/base-project.git)` or follow the [Steps](./STEPS.md).
+You can clone this repository
 
-If you clone this repository, you will have to change the git url to match your own repository `git remote set-url origin https://<your_repo_url>`
+`git clone [MaquestiauxDevs/base-project .](https://github.com/MaquestiauxDevs/base-project.git)`
+
+If you clone this repository, you will have to change the git url to match your own repository:
+
+`git remote set-url origin https://<your_repo_url>`
+
+or follow the [Steps](./STEPS.md) to recreate from scratch this starter/base project.
 
 ## Packages used
 
