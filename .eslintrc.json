@@ -10,8 +10,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "camelcase": "error",
-        "indent": ["error", 4]
+        "camelcase": "error"
     },
     "overrides": [
         {
